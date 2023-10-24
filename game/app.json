@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Bulls&Cows",
+    "slug": "BullsAndCows",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildBumber": "1.0.1",
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.siarhei.shnitko.BullsAndCows"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3f0bcafa-16ba-46e0-9527-4d9042c1a9cb"
+      }
+    }
+  }
+}
