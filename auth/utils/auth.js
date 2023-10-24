@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyCJyfMdNG4_jC0u_SgkpDI8Y_LaTf21IVc';
+const API_KEY = '';
 
 export async function createUser(email, password) {
     const response = await fetch('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=' + API_KEY, {
